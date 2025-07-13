@@ -1,0 +1,26 @@
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0%;
+}
+.header {
+    background-color: #1f2937;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+.top {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-bottom: 60px;
+   color: white;
+   font-size: 24px;
+}
+.right-links {
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+}
